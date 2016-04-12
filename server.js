@@ -3,7 +3,7 @@ var mongoose = require( 'mongoose' ),
     parser   = require( 'body-parser' ),
     path     = require( 'path' ),
     root     = __dirname,
-    port     = process.env.PORT || 8000,
+    port     = process.env.PORT || 8080,
     app      = express();
 
 
