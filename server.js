@@ -15,8 +15,8 @@ app.use( parser.json() );
 
 app.set( 'views', path.join( root, 'server/views' ));
 
-require( './server/config/mongoose.js' );
-require( './server/config/routes.js' )( app );
+// require( './server/config/mongoose.js' );
+// require( './server/config/routes.js' )( app );
 
 app.listen( port, function() {
   console.log( `server running on port ${ port }` );
